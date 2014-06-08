@@ -8,11 +8,11 @@ body {background-color: black;}
 }
 .ryu {float:left;}
 
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 }
 .ryu-ready {
@@ -36,4 +36,20 @@ body {background-color: black;}
 	top: 167px;
 	left: -212px;
 	float: left;
+}
+.ryu-cool {
+	background-image: url("/Users/lorensiegel/thinkful-projects/jquery-streetfighter/images/ryu-cool.gif");
+}
+.howto {
+font-family: fantasy;
+font-size: 25px;
+color: rgb(25, 150, 75);
+float: left;
+margin-top: 371px;
+position: fixed;
+margin-left: -87px;
+}
+
+p {
+	padding: 10px;
 }
